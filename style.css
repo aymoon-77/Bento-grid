@@ -1,0 +1,149 @@
+/*! imports*/
+@font-face {
+    font-family: 'DM Sans';
+    src:url(./assets/fonts/DMSans-Italic-VariableFont_opsz\,wght.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'DM Sans';
+    src: url(./assets/fonts/DMSans-VariableFont_opsz\,wght.ttf);
+    font-weight: 500;
+}
+/*! reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+ul{
+    list-style: none;
+}
+
+/*! global*/
+:root{
+--Purple-100: hsl(254, 88%, 90%);
+--Purple-500: hsl(256, 67%, 59%);
+--Yellow-100: hsl(31, 66%, 93%);
+--Yellow-500: hsl(39, 100%, 71%);
+--White: hsl(0, 0%, 100%);
+--Black: hsl(0, 0%, 7%);
+}
+body{
+    background-color: rgba(243, 237, 237, 0.782);
+    font-size: 18px;
+    font-family: "DM Sans";
+}
+h1{
+    color: var(--White);
+    font-size: 2em;
+    padding: 1em 2em 0 2em;
+    font-family:"DMSans-Italic-VariableFont_opsz";
+}
+.contianer{
+    border-radius: .625em;
+    margin-bottom: 3em;
+}
+h2{
+    font-size: 1.5em;
+    margin-top: .5em;
+   padding-bottom: 1em;
+   font-family: "DMSans-Italic-VariableFont_opsz";
+}
+/*! body*/
+main{
+    width: 95%;
+    margin: 2em auto;
+}
+/*? first-box */
+.f-box{
+    background-color: var(--Purple-500);
+    text-align: center;
+}
+.pa{
+    color: var(--White);
+   padding-bottom: 3em;
+}
+h1 span{
+    color: var(--Yellow-500);
+}
+.f-box figure img {
+    width: 60%;
+    margin-top: 1em;
+}
+/* ?second-box */
+.s-box { 
+    background-color:var(--White);
+    padding: .4em;
+}
+.s-box figure img{
+    margin: 1em auto 0 auto;
+}
+/*?third-box */
+.t-box{
+    background-color: var(--Yellow-500);
+    height: 300px;
+    padding: 1em;
+    overflow: hidden;
+}
+.t-box img{
+    width: 75%;
+}
+/*? four-box*/
+.fo-box{
+    background-color: var(--Purple-100);
+    text-align: center;
+    padding: .9em;
+}
+.fo-box figure{
+    margin-bottom: 1em;
+}
+/*?five box */
+.fi-box{
+    background-color: var(--Purple-500);
+    text-align: center;
+    padding: 1em 3em;
+}
+.fi-box figure{
+    margin-bottom: 1em;
+}
+.fi-box h2{
+    color: var(--White);
+}
+/*?six-box */
+.si-box{
+    background-color: var(--White);
+    padding: 1em;
+}
+.si-box p span{
+    display: block;
+    font-size: 3em;
+}
+.si-box img{
+    width: 60%;
+    margin-top: 1em;
+}
+/*?seven-box */
+.se-box{
+    background-color: var(--Yellow-100);
+    padding: 1em;
+}
+.se-box h2 span{
+    color: var(--Purple-500);
+}
+.se-box img{
+    width: 60%;
+}
+/*?eight box */
+.eig-box{
+    background-color: var(--Yellow-500);
+    padding: 1em 2em;
+}
+.eig-box img{
+    width: 80%;
+}
